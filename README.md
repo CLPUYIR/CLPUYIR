@@ -1,50 +1,82 @@
-# 👋 Hi, I'm Abhishek Karthik PS (CLPUYIR)
-### 🚀 Embedded Systems Developer | IoT Engineer | Cybersecurity Enthusiast
+# 💻 Abhishek Karthik PS (CLPUYIR)
+### 🚀 Embedded Systems Engineer | Distributed AI Researcher | Full-Stack IoT Architect
 
-I specialize in building firmware, designing hardware interfaces, and implementing low-level wireless sniffing and networking solutions using systems like the **ESP32**, **ESP8266**, and other microcontrollers.
+I build bare-metal firmware, design high-frequency wireless sniffer hardware, and architect decentralized, offline-first systems. My work focuses on bridging the gap between low-level hardware (microcontrollers, sensors, biosignals) and distributed high-performance software (local LLM swarms, automated data pipelines).
 
 ---
 
-### 🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack & Domain Expertise
 
 <table>
   <tr>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="48" height="48" alt="C" />
-      <br />C
+    <td valign="top" width="25%">
+      <strong>📟 Hardware & IoT</strong><br />
+      • ESP32 & ESP8266 (RTOS)<br />
+      • STM32 & Arduino Series<br />
+      • SPI, I2C, UART, TCP/IP<br />
+      • TFT Displays (ST7735, OLED)
     </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++" />
-      <br />C++
+    <td valign="top" width="25%">
+      <strong>🧠 AI & Signal Processing</strong><br />
+      • LLM Swarm Orchestration<br />
+      • llama.cpp RPC & Ollama<br />
+      • EMG Signal Feature Extraction<br />
+      • Linear Discriminant Analysis
     </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-      <br />Python
+    <td valign="top" width="25%">
+      <strong>💻 Languages & Tooling</strong><br />
+      • C, C++, Python<br />
+      • TypeScript & PowerShell<br />
+      • Git & GitHub Actions<br />
+      • PlatformIO & VS Code
     </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
-      <br />JavaScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      <br />Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="48" height="48" alt="Arduino" />
-      <br />Arduino
+    <td valign="top" width="25%">
+      <strong>🌐 Web & Scraping</strong><br />
+      • React 19 & Framer Motion<br />
+      • Tailwind CSS & HTML/CSS<br />
+      • Playwright (Stealth)<br />
+      • SQLite & Tesseract OCR
     </td>
   </tr>
 </table>
 
-#### 🔌 Hardware & Protocols
-*   **Microcontrollers:** ESP32, ESP8266, STM32, Arduino Series
-*   **Peripherals & Displays:** ST7735 TFT, OLED, LCD, SPI, I2C, UART
-*   **Wireless Protocols:** Wi-Fi (802.11 b/g/n), Bluetooth/BLE, ESP-NOW
-*   **Toolchains:** Arduino IDE, PlatformIO, VS Code
+---
+
+## 🏆 Featured Projects
+
+### 🐝 [HIVEYESH v2.0 — The Sovereign Swarm](https://github.com/CLPUYIR/HIVEYESH-V2.0)
+*A Distributed AI Supercomputer designed for isolated local networks.*
+*   **The Problem:** Running massive PhD-level LLMs (like Llama-3.1 405B) requires expensive enterprise GPUs ($$$$).
+*   **The Sovereign Solution:** Aggregates CPU-RAM and GPU-VRAM across heterogeneous local office/lab machines into a single virtual compute pool.
+*   **Architecture:** Separates execution into a **Management Plane** (WinRM, Robocopy for parallel weight distribution) and a high-performance **Data Plane** (raw binary TCP sockets bypassing standard OS networking overhead via llama.cpp RPC).
+*   **Key Features:** Automated hardware/network profiling (`SetPriorityClass` optimization), interactive ASCII TUI wizard, transactional self-healing failover (Emergency Resharding), and a synchronized multi-agent router with shared memory.
+*   *Stack: Python, PowerShell, C/C++, llama.cpp, Win32 API*
+
+### 🦾 [Bionic Limb Control System](https://github.com/CLPUYIR/bmi-project)
+*Real-time Electromyography (EMG) pattern recognition and prosthetic hand visualization.*
+*   **The Science:** Aligned with the benchmark **NinaPro Database 2 (DB2)** dataset for non-invasive adaptive prosthetics.
+*   **Signal Processing:** Simulates 8-channel raw muscle contractions, running sliding-window feature extraction to calculate Mean Absolute Value (MAV), Root Mean Square (RMS), Waveform Length (WL), and Zero Crossings (ZC).
+*   **Classification:** Maps real-time muscle activity to hand gestures using a localized Euclidean distance nearest-neighbor pattern recognition algorithm (simulated LDA).
+*   **Visualizer:** High-fidelity interactive hand rendering driven by Framer Motion physics.
+*   *Stack: React 19, TypeScript, Framer Motion, Tailwind CSS, Vite*
+
+### 📡 [WIFIMON — ESP32 Cybersecurity Sniffer & Radar](https://github.com/CLPUYIR/WIFIMON)
+*Active packet sniffer and passive device proximity tracking on bare-metal hardware.*
+*   **Network Sniffing:** Hooks directly into the ESP32 wireless stack in promiscuous mode to capture raw 802.11 frames. Parses Beacons (SSID, encryption, channel) and Client Probes to map local network topologies.
+*   **Embedded Display:** Implements double-buffered drawing on an ST7735 1.8" TFT screen using `GFXcanvas16` to completely eliminate frame flicker.
+*   **Proximity Mapping:** Real-time RSSI signal-strength database with rolling memory structures and 30-second inactive node aging.
+*   *Stack: C++, ESP32 Wi-Fi SDK, Adafruit GFX, ST7735 SPI Driver*
+
+### 🌴 [Kerala Toddy Shop Intelligence Pipeline](https://github.com/CLPUYIR/Kerala-Shop-Intelligence)
+*An autonomous, local hybrid AI scraper and data enrichment system.*
+*   **Stealth Scraping:** Playwright-driven automation maps ~4,500 target establishments, extracting geocoding, ratings, reviews, and contact information.
+*   **Offline AI & Vision:** Extracts raw text (English and Malayalam) from menus/imagery via Tesseract OCR and passes it to local LLMs (via Ollama) to autonomously classify signature dishes and synthesize establishment vibes.
+*   **State Machine:** SQLite database keeps the multi-stage pipeline robust, transactional, and 100% resumable.
+*   *Stack: Python, Playwright, Ollama (Llama 3.1), SQLite, Tesseract OCR*
 
 ---
 
-### 📈 GitHub Statistics
+## 📊 GitHub Analytics & Diagnostics
 
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=CLPUYIR&show_icons=true&theme=tokyonight&count_private=true" alt="Abhishek's GitHub Stats" height="180" />
@@ -53,15 +85,10 @@ I specialize in building firmware, designing hardware interfaces, and implementi
 
 ---
 
-### ⚡ Highlights & Projects
-*   📡 **[WIFIMON](https://github.com/CLPUYIR/WIFIMON):** A real-time ESP32-based Wi-Fi sniffer and radar using promiscuous mode to map local access points and client probes on an ST7735 TFT display.
-*   🔒 Focus on low-level firmware security, wireless packet analysis, and modular embedded systems design.
+## 📬 Let's Connect
+
+*   📧 **Direct Email:** [abhishekkarthikps@gmail.com](mailto:abhishekkarthikps@gmail.com)
+*   🐙 **GitHub Home:** [github.com/CLPUYIR](https://github.com/CLPUYIR)
 
 ---
-
-### 📫 Connect with Me
-*   📧 **Email:** [abhishekkarthikps@gmail.com](mailto:abhishekkarthikps@gmail.com)
-*   🐙 **GitHub:** [github.com/CLPUYIR](https://github.com/CLPUYIR)
-
----
-*“Optimizing code, one register at a time.”*
+*“Recycling hardware, scaling intelligence, securing connections.”*
