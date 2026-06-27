@@ -76,6 +76,15 @@ I build bare-metal firmware, design high-frequency wireless sniffer hardware, an
 
 ---
 
+## 🏆 GitHub Trophies
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://ryo-ma.github.io/github-profile-trophy/?username=CLPUYIR&theme=tokyonight&margin-w=15&margin-h=15" alt="CLPUYIR GitHub Trophies" />
+  </a>
+</p>
+
+---
+
 ## 📊 GitHub Analytics & Diagnostics
 
 <p align="left">
@@ -89,6 +98,12 @@ I build bare-metal firmware, design high-frequency wireless sniffer hardware, an
 
 *   📧 **Direct Email:** [abhishekkarthikps@gmail.com](mailto:abhishekkarthikps@gmail.com)
 *   🐙 **GitHub Home:** [github.com/CLPUYIR](https://github.com/CLPUYIR)
+*   📺 **YouTube:** [![YouTube Badge](https://img.shields.io/badge/YouTube-%40thugappan6969-red?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@thugappan6969)
+*   📸 **Instagram:** [![Instagram Badge](https://img.shields.io/badge/Instagram-%40abhishek__karthik__ps-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/abhishek_karthik_ps/)
 
 ---
-*“Recycling hardware, scaling intelligence, securing connections.”*
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" /><br/>
+  <i>“Recycling hardware, scaling intelligence, securing connections.”</i>
+</p>
