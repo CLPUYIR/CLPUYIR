@@ -91,7 +91,7 @@ motto: "Recycling hardware, scaling intelligence, securing connections."
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=CLPUYIR&theme=radical&margin-w=15&margin-h=15" alt="CLPUYIR Trophies" width="100%" />
+    <img src="https://github-profile-trophy-zeta.vercel.app/?username=CLPUYIR&theme=radical&margin-w=15&margin-h=15" alt="CLPUYIR Trophies" width="100%" />
   </a>
 </div>
 
@@ -103,10 +103,10 @@ motto: "Recycling hardware, scaling intelligence, securing connections."
   <table border="0">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=CLPUYIR&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_border=true" alt="GitHub Stats" height="190" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=CLPUYIR&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" alt="GitHub Stats" height="190" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CLPUYIR&layout=compact&theme=radical&hide=html,css&hide_border=true" alt="Top Languages" height="190" />
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=CLPUYIR&layout=compact&theme=radical&hide=html,css&hide_border=true" alt="Top Languages" height="190" />
       </td>
     </tr>
   </table>
@@ -114,12 +114,12 @@ motto: "Recycling hardware, scaling intelligence, securing connections."
   <br/>
 
   <a href="https://github.com/CLPUYIR">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=CLPUYIR&theme=radical&hide_border=true" alt="GitHub Streak" width="95%" />
+    <img src="https://streak-stats.demolab.com/?user=CLPUYIR&theme=radical&hide_border=true" alt="GitHub Streak" width="95%" />
   </a>
 
   <br/><br/>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CLPUYIR&theme=radical&hide_border=true" alt="Activity Graph" width="95%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=CLPUYIR&theme=radical&utcOffset=5.5" alt="Productive Time Activity" width="95%" />
 
   <br/><br/>
 
