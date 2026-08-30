@@ -120,6 +120,15 @@ motto: "Recycling hardware, scaling intelligence, securing connections."
   <br/><br/>
 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CLPUYIR&theme=radical&hide_border=true" alt="Activity Graph" width="95%" />
+
+  <br/><br/>
+
+  <h3>🐍 Contribution Snake Graph</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/CLPUYIR/CLPUYIR/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/CLPUYIR/CLPUYIR/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/CLPUYIR/CLPUYIR/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
 ---
